@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type = "text/javascript">
+        let user =`[
+        {
+            "_id" : "1-321-143-775",
+            "username" : "student 1",
+            "firstName" : "Joshua",
+            "lastName" : "Brioso",
+            "email" : "brioso12345@gmail.com",
+            "password" : "Nalate12345",
+            "mobileNumber" : "0123456789",
+            "isAdmin" : false,
+            "enrollments" : [ 
+                {
+                    "enrollment_id" : "123",
+                    "course_id" : "123",
+                    "courseName" : "Judo",
+                    "isPaid" : true,
+                    "dateEnrolled" : "20/09/22"
+                }
+            ]
+        },
+        
+        
+        {
+            "_id" : "2-322-144-776",
+            "username" : "student 2",
+            "firstName" : "Herson",
+            "lastName" : "Burador",
+            "email" : "HersonPogi123@gmail.com",
+            "password" : "Mechs&Chads123",
+            "mobileNumber" : "09247129818",
+            "isAdmin" : false,
+            "enrollments" : [ 
+                {
+                    "enrollment_id" : "321",
+                    "course_id" : "321",
+                    "courseName" : "Robotics",
+                    "isPaid" : true,
+                    "dateEnrolled" : "20/09/21"
+                }
+            ]
+        }
+        ]`;
+        console.log(user);
+
+
+
+let course = `[
+{
+    "_id" : "1-321-143-775",
+    "name" : "Joshua",
+    "description" : "About to beat some bullies",
+    "price" : 1200,
+    "slots" : 20,
+    "schedule" : "10:00 am - 1:00 pm",
+    "instructor" : "Jermon Batista",
+    "isActive" : true,
+    "enrollees" : [ 
+        {
+            "enrollee_id" : "123",
+            "userId" : "1-321-143-775",
+            "userName" : "student 1",
+            "isPaid" : true,
+            "dateEnrolled" : "20/09/22"
+        }
+    ]
+},
+
+
+{
+    "_id" : "2-322-144-776",
+    "name" : "Herson",
+    "description" : "Looking Forward to a brighter future",
+    "price" : 3000,
+    "slots" : 30,
+    "schedule" : "11:00 am - 1:00 pm",
+    "instructor" : "Optimus Prime",
+    "isActive" : true,
+    "enrollees" : [ 
+        {
+            "enrollee_id" : "321",
+            "userId" : "2-322-144-776",
+            "userName" : "student 2",
+            "isPaid" : true,
+            "dateEnrolled" : "20/09/21"
+        }
+    ]
+}
+]
+`; 
+
+console.log(course);
+
+    </script>
+</body>
+</html>
